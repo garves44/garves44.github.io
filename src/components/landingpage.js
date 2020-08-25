@@ -8,9 +8,17 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-              alt="avatar"
-              className="avatar-img"
+              src="/images/jeremy.jpg"
+              alt="Jeremy Profile Picture"
+              style={{
+                borderRadius: "50%",
+                overflow: "visible",
+                boxShadow:
+                  "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                height: "300px",
+                width: "300px",
+                marginTop: "100px",
+              }}
             />
 
             <div className="banner-text">
@@ -26,7 +34,7 @@ class Landing extends Component {
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/jeremy-collins-209545194/"
+                  href="https://www.linkedin.com/in/jeremycollins44/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -43,13 +51,9 @@ class Landing extends Component {
                 </a>
 
                 {/* Freecodecamp */}
-                <a
-                  href="https://www.freecodecamp.org/garves"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
+                <az rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
+                </az>
 
                 {/* Youtube */}
                 <a

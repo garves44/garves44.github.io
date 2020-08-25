@@ -11,7 +11,7 @@ class Contact extends Component {
             <img
               src="../images/jeremy.jpg"
               alt="profile picture"
-              style={{ height: "250px" }}
+              style={{ height: "250px", borderRadius: "50%" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Hello, welcome to my portfolio website! I'm a student web
