@@ -44,10 +44,10 @@ class Resume extends Component {
             <h2>Education</h2>
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2019}
+              endYear={2020}
+              schoolName="University of Utah"
+              schoolDescription="I have"
             />
 
             <Education

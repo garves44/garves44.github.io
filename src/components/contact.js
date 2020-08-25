@@ -14,18 +14,14 @@ class Contact extends Component {
               style={{ height: "250px", borderRadius: "50%" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Hello, welcome to my portfolio website! I'm a student web
+              Hello, welcome to my portfolio website! I'm a professional web
               developer with a lot of passion to code and improve my own
-              personal skills. Hoping to learn as much as I can from this course
-              and move into a job utilizing the skills I obtain. I’ve been
-              exposed to developing in html/css/php/javascript/etc from friends
-              and family who work in the industry. I’ve messed around with a
-              personal site and some scripts for my personal use here and there.
-              I’m excited to learn full stack developing, and stay up to speed
-              with today’s market. I want to always produce the best code, so I
-              can take pride in what I do. I am constantly learning new ways to
-              code and getting new ideas on projects I want to do someday.
-              Hopefully someday I can do some work for you! :)
+              personal skills. Hoping to learn as much as I can in the coding
+              world and move into a job utilizing the skills I obtain. I love
+              creating new apps, and staying up to speed with today’s market. I
+              want to always produce the best code, so I can take pride in what
+              I do. I am constantly learning new ways to code and getting new
+              ideas on projects I want to do someday. Feel free to contact me!
             </p>
           </Cell>
           <Cell col={6}>
@@ -48,7 +44,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    Jeremy C Collins
+                    jeremycollins44
                   </ListItemContent>
                 </ListItem>
 
@@ -66,7 +62,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-github" aria-hidden="true" />
-                    https://github.com/garves44/
+                    garves44
                   </ListItemContent>
                 </ListItem>
               </List>
