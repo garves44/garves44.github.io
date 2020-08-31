@@ -25,13 +25,78 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
+              <Grid className="skills-grid">
+                <Cell className="skill-cell" col={2} offset={1}>
+                  <span className="image-wrapper">
+                    <img
+                      src="/images/icons8-react-120.png"
+                      alt="react logo"
+                      className="skill-image"
+                    />
+                  </span>
+                  <div>
+                    <h4 className="skill-title">Frontend</h4>
+                    <p>React, Gatsby, WordPress</p>
+                  </div>
+                </Cell>
+                <Cell className="skill-cell" col={2}>
+                  <span className="image-wrapper">
+                    <img
+                      src="/images/icons8-visual-studio-code-2019-240.png"
+                      alt="vscode logo"
+                      className="skill-image"
+                    />
+                  </span>
+                  <div>
+                    <h4 className="skill-title">Tools</h4>
+                    <p>
+                      VSCode, Git, Github, DBeaver, Robo 3T, Postman, Insomnia
+                    </p>
+                  </div>
+                </Cell>
+                <Cell className="skill-cell" col={2}>
+                  <span className="image-wrapper">
+                    <img
+                      src="/images/leaf.png"
+                      alt="leaf"
+                      className="skill-image"
+                    />
+                  </span>
+                  <div>
+                    <h4 className="skill-title">Databases</h4>
+                    <p>MongoDB, MySQL, Firebase, Contentful</p>
+                  </div>
+                </Cell>
+                <Cell className="skill-cell" col={2}>
+                  <span className="image-wrapper">
+                    <img
+                      src="/images/nodejs.png"
+                      alt="Node logo"
+                      className="skill-image "
+                    />
+                  </span>
+                  <div>
+                    <h4 className="skill-title">Backend</h4>
+                    <p>Node, ExpressJS, GraphQL, PHP</p>
+                  </div>
+                </Cell>
+                <Cell className="skill-cell" col={2}>
+                  <span className="image-wrapper">
+                    <img
+                      src="/images/servers.png"
+                      alt="Node logo"
+                      className="skill-image "
+                    />
+                  </span>
+                  <div>
+                    <h4 className="skill-title">Servers</h4>
+                    <p>
+                      Netlify, Heroku, AWS EC2, AWS s3, Digital Ocean, Antsle
+                    </p>
+                  </div>
+                </Cell>
+              </Grid>
               <hr />
-
-              <p>
-                HTML/CSS | Bootstrap | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
-              </p>
-
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
