@@ -35,11 +35,17 @@ class Projects extends Component {
               Job Application Tracker
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Job Application Tracker will allow users to keep track of their
+              progress throughout the job hunt. With columns to categories jobs
+              they've applied to all the way to jobs they've been rejected by.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button
+                colored
+                href="https://github.com/garves44/p2-application-tracker"
+              >
+                GitHub
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
@@ -54,18 +60,21 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                background: "url(/images/DEATHROLL.PNG) center / cover",
               }}
             >
-              React Project #2
+              Death Roll
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Death Roll is a gambling game. This application provides a user
+              interface to aid in Death Roll game play. We hope that this fun
+              game can help allieviate the increased anxiety and depression
+              rates during these unprecedented times.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored href="https://github.com/garves44/p1-death-roll">
+                GitHub
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
@@ -80,11 +89,10 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                background: "url(/images/Horiseon.PNG) center / cover",
               }}
             >
-              React Project #3
+              Horiseon
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -130,6 +138,7 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
+          <Tab>All Projects</Tab>
           <Tab>React</Tab>
           <Tab>Angular</Tab>
           <Tab>VueJS</Tab>

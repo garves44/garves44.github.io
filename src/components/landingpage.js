@@ -23,7 +23,7 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Full Stack Software Engineer</h1>
 
               <Grid className="skills-grid">
                 <Cell className="skill-cell" col={2} offset={1}>
@@ -117,9 +117,13 @@ class Landing extends Component {
                 </a>
 
                 {/* Freecodecamp */}
-                <az rel="noopener noreferrer" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.freecodecamp.org/garves"
+                >
                   <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </az>
+                </a>
 
                 {/* Youtube */}
                 <a

@@ -14,9 +14,9 @@ class Contact extends Component {
               style={{ height: "250px", borderRadius: "50%" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Hello, welcome to my portfolio website! I'm a professional web
-              developer with a lot of passion to code and improve my own
-              personal skills. Hoping to learn as much as I can in the coding
+              Hello, welcome to my portfolio website! I'm a professional
+              software engineer with a lot of passion to code and improve my own
+              personal skills. I'm going to learn as much as I can in the coding
               world and move into a job utilizing the skills I obtain. I love
               creating new apps, and staying up to speed with today’s market. I
               want to always produce the best code, so I can take pride in what
