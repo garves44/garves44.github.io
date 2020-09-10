@@ -59,8 +59,12 @@ class App extends Component {
                   exact
                   path="/p1-death-roll"
                   component={() => {
-                    window.location.href =
-                      "https://garves44.github.io/p1-death-roll/";
+                    window.open(
+                      "https://garves44.github.io/p1-death-roll/",
+                      "_blank"
+                    );
+                    // window.location.href =
+                    //   "https://garves44.github.io/p1-death-roll/";
                     return null;
                   }}
                 ></Route>
