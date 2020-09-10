@@ -8,10 +8,10 @@ import {
   BrowserRouter as Router,
   Redirect,
 } from "react-router-dom";
-import LandingPage from "./landingpage";
-import AboutMe from "./aboutme";
-import Contact from "./contact";
-import Projects from "./projects";
+import LandingPage from "./components/landingpage";
+import AboutMe from "./components/aboutme";
+import Contact from "./components/contact";
+import Projects from "./components/projects";
 
 class App extends Component {
   render() {
