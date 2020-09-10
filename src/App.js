@@ -11,7 +11,7 @@ import Projects from "./projects";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={window.location.pathname || ""}>
         <div className="demo-big-content">
           <Layout>
             <Header
@@ -52,8 +52,8 @@ class App extends Component {
               <div className="page-content" />
 
               <Switch>
+                <Route exact path="/" component={LandingPage} />
                 <Route exact path="/home" component={LandingPage} />
-                <Route exact path="/index" component={LandingPage} />
                 <Route exact path="/aboutme" component={AboutMe} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects" component={Projects} />
