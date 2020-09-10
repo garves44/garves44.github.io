@@ -46,11 +46,11 @@ class App extends Component {
               <div className="page-content" />
 
               <Switch>
-                <Route exact path="/" component={LandingPage} />
                 <Route exact path="/home" component={LandingPage} />
                 <Route exact path="/aboutme" component={AboutMe} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects" component={Projects} />
+                <Route path="*" component={LandingPage} />
               </Switch>
             </Content>
           </Layout>
