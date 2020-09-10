@@ -76,7 +76,9 @@ class Projects extends Component {
                 GitHub
               </Button>
               <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://garves44.github.io/p1-death-roll/">
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
