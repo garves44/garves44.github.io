@@ -56,6 +56,7 @@ class App extends Component {
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects" component={Projects} />
                 <Route
+                  exact
                   path="/p1-death-roll"
                   component={() => {
                     window.location.href =
