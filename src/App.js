@@ -55,9 +55,14 @@ class App extends Component {
                 <Route exact path="/aboutme" component={AboutMe} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects" component={Projects} />
-                <Route path="/p1-death-roll">
-                  <Redirect to="https://garves44.github.io/p1-death-roll/" />
-                </Route>
+                <Route
+                  path="/p1-death-roll"
+                  component={() => {
+                    window.location.href =
+                      "https://garves44.github.io/p1-death-roll/";
+                    return null;
+                  }}
+                ></Route>
                 <Route path="/" component={LandingPage} />
               </Switch>
             </Content>
