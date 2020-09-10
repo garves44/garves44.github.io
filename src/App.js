@@ -60,6 +60,8 @@ class App extends Component {
                   component={() => {
                     window.location.href =
                       "https://garves44.github.io/p1-death-roll/";
+                    console.log("THIS CODE IS RUNNING \n", window.location);
+                    window.location.reload(true);
                     return null;
                   }}
                 ></Route>
