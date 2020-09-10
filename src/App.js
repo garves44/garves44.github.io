@@ -16,7 +16,7 @@ import Projects from "./components/projects";
 class App extends Component {
   render() {
     return (
-      <Router basename={window.location.pathname || ""}>
+      <Router>
         <div className="demo-big-content">
           <Layout>
             <Header
@@ -61,8 +61,6 @@ class App extends Component {
                   component={() => {
                     window.location.href =
                       "https://garves44.github.io/p1-death-roll/";
-                    console.log("THIS CODE IS RUNNING \n", window.location);
-                    window.location.reload(true);
                     return null;
                   }}
                 ></Route>
