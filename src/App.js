@@ -12,6 +12,7 @@ import LandingPage from "./components/landingpage";
 import AboutMe from "./components/aboutme";
 import Contact from "./components/contact";
 import Projects from "./components/projects";
+import Resume from "./components/resume";
 
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/resume">resume</Link>
               </Navigation>
             </Header>
             <Drawer
@@ -54,6 +56,7 @@ class App extends Component {
                 <Route exact path="/home" component={LandingPage} />
                 <Route exact path="/aboutme" component={AboutMe} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/resume" component={Resume} />
                 <Route exact path="/projects" component={Projects} />
                 <Route
                   exact
