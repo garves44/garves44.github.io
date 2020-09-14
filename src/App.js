@@ -30,10 +30,10 @@ class App extends Component {
               scroll
             >
               <Navigation>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
+                <Link to="/">About Me</Link>
+                <Link to="/projects">Portfolio</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/resume">resume</Link>
+                <Link to="/resume">Resume</Link>
               </Navigation>
             </Header>
             <Drawer

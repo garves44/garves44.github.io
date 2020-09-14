@@ -109,6 +109,78 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          {/* Project 4 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background: "url(/images/Horiseon.PNG) center / cover",
+              }}
+            >
+              Horiseon
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 5 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background: "url(/images/Horiseon.PNG) center / cover",
+              }}
+            >
+              Horiseon
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 6 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background: "url(/images/Horiseon.PNG) center / cover",
+              }}
+            >
+              Horiseon
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
