@@ -47,7 +47,12 @@ class Projects extends Component {
                 GitHub
               </Button>
               <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                href="https://p2-job-application-tracker.herokuapp.com/"
+              >
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
