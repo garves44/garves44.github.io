@@ -115,19 +115,23 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background: "url(/images/Horiseon.PNG) center / cover",
+                background: "url(/images/photoport.PNG) center / cover",
               }}
             >
-              Horiseon
+              Photo Port
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored href="https://github.com/garves44/photo-port">
+                GitHub
+              </Button>
               <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://garves44.github.io/photo-port/">
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -137,21 +141,28 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#black",
                 height: "176px",
-                background: "url(/images/Horiseon.PNG) center / cover",
+                background: "url(/images/budget.PNG) center / cover",
               }}
             >
-              Horiseon
+              Budget Tracker
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button
+                colored
+                href="https://github.com/garves44/w19c-budget-tracker"
+              >
+                GitHub
+              </Button>
               <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://w19c-budget-tracker.herokuapp.com/">
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -161,21 +172,31 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "black",
                 height: "176px",
-                background: "url(/images/Horiseon.PNG) center / cover",
+                background: "url(/images/weather-dashbord.PNG) center / cover",
               }}
             >
-              Horiseon
+              Weather Dashboard
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button
+                colored
+                href="https://github.com/garves44/w6c-weather-dashboard"
+              >
+                GitHub
+              </Button>
               <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                href="https://garves44.github.io/w6c-weather-dashboard/"
+              >
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
