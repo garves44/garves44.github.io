@@ -35,9 +35,8 @@ class Projects extends Component {
               Job Application Tracker
             </CardTitle>
             <CardText>
-              Job Application Tracker will allow users to keep track of their
-              progress throughout the job hunt. With columns to categories jobs
-              they've applied to all the way to jobs they've been rejected by.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
               <Button
@@ -46,7 +45,6 @@ class Projects extends Component {
               >
                 GitHub
               </Button>
-              <Button colored>CodePen</Button>
               <Button
                 colored
                 href="https://p2-job-application-tracker.herokuapp.com/"
@@ -71,16 +69,13 @@ class Projects extends Component {
               Death Roll
             </CardTitle>
             <CardText>
-              Death Roll is a gambling game. This application provides a user
-              interface to aid in Death Roll game play. We hope that this fun
-              game can help allieviate the increased anxiety and depression
-              rates during these unprecedented times.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
               <Button colored href="https://github.com/garves44/p1-death-roll">
                 GitHub
               </Button>
-              <Button colored>CodePen</Button>
               <Button colored href="/p1-death-roll">
                 Live Demo
               </Button>
@@ -107,7 +102,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -133,7 +127,6 @@ class Projects extends Component {
               <Button colored href="https://github.com/garves44/photo-port">
                 GitHub
               </Button>
-              <Button colored>CodePen</Button>
               <Button colored href="https://garves44.github.io/photo-port/">
                 Live Demo
               </Button>
@@ -164,7 +157,6 @@ class Projects extends Component {
               >
                 GitHub
               </Button>
-              <Button colored>CodePen</Button>
               <Button colored href="https://w19c-budget-tracker.herokuapp.com/">
                 Live Demo
               </Button>
@@ -195,7 +187,6 @@ class Projects extends Component {
               >
                 GitHub
               </Button>
-              <Button colored>CodePen</Button>
               <Button
                 colored
                 href="https://garves44.github.io/w6c-weather-dashboard/"
