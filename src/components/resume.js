@@ -25,15 +25,6 @@ class Resume extends Component {
               View Resume Here!
             </a>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
-            <h5>Phone</h5>
-            <p>(123) 456-7890</p>
-            <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -42,7 +33,7 @@ class Resume extends Component {
               startYear={2019}
               endYear={2020}
               schoolName="University of Utah"
-              schoolDescription="I have"
+              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
 
             <Education
